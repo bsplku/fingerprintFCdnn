@@ -10,3 +10,5 @@ The main code is for to identifying 10 exemplary subjects using 15 s window tvFC
 ## modules_indiv_identification.py
 This script includes modules used in the main code.
 
+## data/
+This directory includes the input data.
