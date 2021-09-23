@@ -1,4 +1,7 @@
 # fingerprintFCdnn
+
+![alt text](https://https://github.com/bsplku/fingerprintFCdnn/edit/main/README_fig.png?raw=true)
+
 Here, we provide a set of codes to build and train deep neural network (DNN) model to identify individuals in HCP 1200 dataset using time-varying functional connectivity (tvFC) patterns.
 * Based on Python 3.6
 * TensorFlow 1.15
