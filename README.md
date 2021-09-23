@@ -22,7 +22,7 @@ This directory includes the input tvFC data. The subdirectory RS1 (or Day1) and 
 
 ## results_example/
 This directory contains example results. \
-Similarly, the main code will store the corresponding results in an automatically created './results' directory. 
+Similarly, the main code will store the corresponding results in an automatically created folder under the './results' directory. 
 
 <br/><br/>
 
