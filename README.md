@@ -20,3 +20,9 @@ This directory includes the input data.
 ## results_example/
 This directory contains example result. \
 The main you will automatically create './results/results_..._tgHSP_...' directory which is similar to this. 
+
+------------
+
+Author: [Juhyeon Lee](jh0104lee@gmail.com)
+        [Brain Signal Processing Lab](https://bspl-ku.github.io/)
+        Department of Brain and Cognitive Engineering, Korea University, Seoul, Republic of Korea
