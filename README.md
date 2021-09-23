@@ -19,13 +19,11 @@ This directory includes the input data.
 
 ## results_example/
 This directory contains an example result. \
-The main code will automatically create './results/results_..._tgHSP_...' directory which is similar to this. 
+The main code will automatically create './results/results_...\_tgHSP\_...' directory which is similar to this. 
 
- \
- \
+<br/><br/>
 
-------------
-
-Author: [Juhyeon Lee](jh0104lee@gmail.com) \
-        [Brain Signal Processing Lab](https://bspl-ku.github.io/) \
-        Department of Brain and Cognitive Engineering, Korea University, Seoul, Republic of Korea
+### Author
+>[Juhyeon Lee](jh0104lee@gmail.com) \
+>[Brain Signal Processing Lab](https://bspl-ku.github.io/) \
+>Department of Brain and Cognitive Engineering, Korea University, Seoul, Republic of Korea
