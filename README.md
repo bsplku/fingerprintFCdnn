@@ -10,7 +10,7 @@ Here, we provide a set of codes to build and train a deep neural network (DNN) m
 
 ## main_indiv_identification.ipynb
 The main code is for identifying 10 example subjects using 15 s window tvFC patterns. \
-Hidden layers are initialized using a pretrained model.
+Hidden layers are initialized using a pretrained model to shorten a training time.
 
 ## modules_indiv_identification.py
 This script includes modules used in the main code.
