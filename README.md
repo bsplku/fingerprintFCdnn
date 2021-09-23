@@ -23,6 +23,6 @@ The main you will automatically create './results/results_..._tgHSP_...' directo
 
 ------------
 
-Author: [Juhyeon Lee](jh0104lee@gmail.com)
-        [Brain Signal Processing Lab](https://bspl-ku.github.io/)
+Author: [Juhyeon Lee](jh0104lee@gmail.com) \
+        [Brain Signal Processing Lab](https://bspl-ku.github.io/) \
         Department of Brain and Cognitive Engineering, Korea University, Seoul, Republic of Korea
