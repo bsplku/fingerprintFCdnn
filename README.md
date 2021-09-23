@@ -15,16 +15,16 @@ The main code is for identifying 10 example subjects using 15 s window tvFC patt
 Hidden layers are initialized using a pretrained model to shorten a training time.
 
 ## modules_indiv_identification.py
-This script includes modules used in the main code.
+This module contains the classes/functions used in the main code.
 
 ## data/
 This directory includes the input tvFC data.  
 The subdirectory RS1 (or Day1) and RS2 (or Day2) indicate resting-state fMRI scans from the first and second visits, respectively.  
-Each visit had two runs with different phase encoding directions, i.e., right-to-left (RL) and left-to-right (LR).
+Each visit contains two runs with different phase encoding directions, i.e., right-to-left (RL) and left-to-right (LR).
 
 ## results_example/
-This directory contains an example result. \
-Similar to this, the main code will automatically create './results/results_...\_tgHSP\_...' directory. 
+This directory contains example results. \
+Similarly, the main code will store the corresponding results in an automatically created './results' directory. 
 
 <br/><br/>
 
