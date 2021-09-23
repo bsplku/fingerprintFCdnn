@@ -1,4 +1,4 @@
-# fingerprintFCdnn
+# Discovering Fingerprint of Functional Connectivity Using Deep Neural Network (fingerprintFCdnn)
 
 ![fig](https://github.com/bsplku/fingerprintFCdnn/blob/main/README_fig.png?raw=true)
 
@@ -18,8 +18,10 @@ This script includes modules used in the main code.
 This directory includes the input data.
 
 ## results_example/
-This directory contains example result. \
-The main you will automatically create './results/results_..._tgHSP_...' directory which is similar to this. 
+This directory contains an example result. \
+The main code will automatically create './results/results_..._tgHSP_...' directory which is similar to this. 
+
+
 
 ------------
 
