@@ -1,4 +1,4 @@
-# Discovering Fingerprint of Functional Connectivity Using Deep Neural Network (fingerprintFCdnn)
+# Discovering Fingerprint of Functional Connectivity Using DNN (fingerprintFCdnn)
 
 ![fig](https://github.com/bsplku/fingerprintFCdnn/blob/main/README_fig.png?raw=true)
 
