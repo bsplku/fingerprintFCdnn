@@ -6,6 +6,7 @@ Here, we provide a set of codes to build and train deep neural network (DNN) mod
 * Based on Python 3.6
 * TensorFlow 1.15
 * [Other reauired libraries] numpy, timeit, zipfile, os, datetime, pytz, scipy, functools, matplotlib  
+<br/>
 
 ## main_indiv_identification.ipynb
 The main code is for identifying 10 exemplary subjects using 15 s window tvFC patterns. \
