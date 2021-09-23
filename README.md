@@ -2,7 +2,7 @@
 
 ![fig](https://github.com/bsplku/fingerprintFCdnn/blob/main/README_fig.png?raw=true)
 
-Here, we provide a set of codes to build and train a deep neural network (DNN) model to identify individuals in the HCP 1200 dataset using time-varying functional connectivity (tvFC) patterns.
+Here, we provide a set of codes to build and train a deep neural network (DNN) model to identify individuals in the HCP 1200 dataset using time-varying functional connectivity (tvFC) patterns during resting state.
 * Based on Python 3.6
 * TensorFlow 1.15
 * [Other required libraries] numpy, timeit, zipfile, os, datetime, pytz, scipy, functools, matplotlib  
@@ -17,7 +17,7 @@ This script includes modules used in the main code.
 
 ## data/
 This directory includes the input tvFC data.  
-The subdirectory RS1 (or Day1) and RS2 (or Day2) indicate resting-state fMRI scans from first and second visits, respectively.  
+The subdirectory RS1 (or Day1) and RS2 (or Day2) indicate resting-state fMRI scans from the first and second visits, respectively.  
 Each visit had two runs with different phase encoding directions, i.e., right-to-left (RL) and left-to-right (LR).
 
 ## results_example/
