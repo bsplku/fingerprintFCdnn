@@ -13,3 +13,7 @@ This script includes modules used in the main code.
 
 ## data/
 This directory includes the input data.
+
+## results_example/
+This directory contains example result. \
+The main you will automatically create './results/results_..._tgHSP_...' directory which is similar to this. 
