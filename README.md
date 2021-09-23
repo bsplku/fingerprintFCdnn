@@ -4,8 +4,8 @@
 
 Here, we provide a set of codes to build and train a deep neural network (DNN) model to identify individuals in the HCP 1200 dataset using time-varying functional connectivity (tvFC) patterns during a resting state. 
 
-<br>
 The codes were implemented in the Python 3.6 environment with the following libraries:
+
 * TensorFlow 1.15
 * [Other required libraries] numpy, timeit, zipfile, os, datetime, pytz, scipy, functools, matplotlib  
 <br/>
