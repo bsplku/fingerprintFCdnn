@@ -7,11 +7,11 @@ Here, we provide a set of codes to build and train a weight-sparsity-controlled 
 The codes were implemented in the Python 3.6 environment with the following libraries:
 
 * TensorFlow 1.15
-* [Other required libraries] numpy, timeit, zipfile, os, datetime, pytz, scipy, functools, matplotlib  
+* numpy, timeit, zipfile, os, datetime, pytz, scipy, functools, matplotlib  
 <br/>
 
 ## main_indiv_identification.ipynb
-This main code is for identifying 10 example subjects using 15 s window tvFC patterns. \
+This main code is for identifying 10 example subjects using 15-s window tvFC patterns. \
 Hidden layers are initialized using a pretrained model to shorten a training time.
 
 ## modules_indiv_identification.py
