@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+"""
+@author: Juhyeon Lee [jh0104lee@gmail.com]
+        Brain Signal Processing Lab [https://bspl-ku.github.io/]
+        Department of Brain and Cognitive Engineering, Korea University, Seoul, Republic of Korea
+"""
 
 import numpy as np
 import tensorflow as tf
@@ -620,7 +624,7 @@ def plot_save_results(sess, final_directory, tg_sp_set, plot_lr, plot_tot_cost, 
     """
 
     import matplotlib
-    matplotlib.use('Agg')
+    # matplotlib.use('Agg')
     import matplotlib.pyplot as plt
 
     # Plot the change of learning rate
@@ -630,7 +634,7 @@ def plot_save_results(sess, final_directory, tg_sp_set, plot_lr, plot_tot_cost, 
     plt.plot(plot_lr)
     plt.grid()
     plt.savefig(final_directory+'/learning_rate.png')
-    #plt.show(block=False)
+    plt.show()
     plt.close(plot)
 
     # Plot the change of cost
@@ -640,7 +644,7 @@ def plot_save_results(sess, final_directory, tg_sp_set, plot_lr, plot_tot_cost, 
     plt.yscale('log')
     plt.grid()
     plt.savefig(final_directory+'/cost.png')
-    #plt.show(block=False)
+    plt.show()
     plt.close(plot)
 
     # Plot the change of beta
@@ -653,7 +657,7 @@ def plot_save_results(sess, final_directory, tg_sp_set, plot_lr, plot_tot_cost, 
     plt.legend(loc='best')
     plt.grid()
     plt.savefig(final_directory+'/beta.png')
-    #plt.show(block=False)
+    plt.show(block=False)
     plt.close(plot)
 
     # Plot the change of beta by unit
@@ -665,7 +669,7 @@ def plot_save_results(sess, final_directory, tg_sp_set, plot_lr, plot_tot_cost, 
     plt.title("Beta plot (by unit)", fontsize=16)
     plt.ylim(0.0, np.max(beta_max)*1.2)
     plt.savefig(final_directory+'/beta_hid_unit.png')
-    #plt.show(block=False)
+    plt.show()
     plt.close(plot)
 
 
@@ -678,8 +682,8 @@ def plot_save_results(sess, final_directory, tg_sp_set, plot_lr, plot_tot_cost, 
     plt.title("Hoyer's sparsity plot", fontsize=16)
     plt.ylim(0.0, 1.0)
     plt.legend(loc='best')
-    plt.savefig(final_directory+'/HSP_'+'_'.join(["{:.2f}".format(np.mean(sp)) for sp in plot_hsp])+'.png')
-    #plt.show(block=False)
+    plt.savefig(final_directory+'/HSP_'+'_'.join(["{:.2f}".format(np.mean(sp[-1])) for sp in plot_hsp])+'.png')
+    plt.show(block=False)
     plt.close(plot)
 
     # Plot the change of Hoyer's sparsity by unit
@@ -690,9 +694,10 @@ def plot_save_results(sess, final_directory, tg_sp_set, plot_lr, plot_tot_cost, 
     plt.grid()
     plt.title("Hoyer's sparsity plot (by unit)", fontsize=16)
     plt.ylim(0.0, 1.0)
-    plt.savefig(final_directory+'/HSP_'+'_'.join(["{:.2f}".format(np.mean(sp)) for sp in plot_hsp])+'_hid_unit.png')
-    #plt.show(block=False)
+    plt.savefig(final_directory+'/HSP_'+'_'.join(["{:.2f}".format(np.mean(sp[-1])) for sp in plot_hsp])+'_hid_unit.png')
+    plt.show()
     plt.close(plot)
+
 
     # Plot the change of error rates
     plot = plt.figure()
@@ -707,7 +712,7 @@ def plot_save_results(sess, final_directory, tg_sp_set, plot_lr, plot_tot_cost, 
     plt.legend(loc='upper left')
     plt.savefig(final_directory+'/error_rates_tr{:.3f}_vd{:.3f}_ts{:.3f}'.format(
                     np.mean(plot_train_err[:,-1],axis=0),np.mean(plot_val_err[:,-1],axis=0),np.mean(plot_test_err[:,-1],axis=0))+'.png')
-    #plt.show(block=False)
+    plt.show()
     plt.close(plot)
 
     # Save error rates as mat files
