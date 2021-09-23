@@ -21,8 +21,7 @@ This directory includes the input data.
 This directory contains an example result. \
 The main code will automatically create './results/results_..._tgHSP_...' directory which is similar to this. 
 
-\
-\
+\\
 
 ------------
 
