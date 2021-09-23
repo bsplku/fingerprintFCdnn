@@ -17,7 +17,7 @@ This script includes modules used in the main code.
 
 ## data/
 This directory includes the input tvFC data.  
-The subdirectory RS1 and RS2 indicate resting-state fMRI scans from first and second visits, respectively.
+The subdirectory RS1 (or Day1) and RS2 (or Day2) indicate resting-state fMRI scans from first and second visits, respectively.  
 Each visit had two runs with different phase encoding directions, i.e., right-to-left (RL) and left-to-right (LR).
 
 ## results_example/
