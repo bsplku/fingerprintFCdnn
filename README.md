@@ -16,11 +16,13 @@ Hidden layers are intialized using a pretained model.
 This script includes modules used in the main code.
 
 ## data/
-This directory includes the input data.
+This directory includes the input tvFC data.  
+The subdirectory RS1 and RS2 indicate resting-state fMRI scans from first and second visits, respectively.
+Each visit had two runs with different phase encoding directions, i.e., right-to-left (RL) and left-to-right (LR).
 
 ## results_example/
 This directory contains an example result. \
-The main code will automatically create './results/results_...\_tgHSP\_...' directory which is similar to this. 
+Similarlu, the main code will automatically create './results/results_...\_tgHSP\_...' directory. 
 
 <br/><br/>
 
