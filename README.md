@@ -2,7 +2,7 @@
 
 ![fig](https://github.com/bsplku/fingerprintFCdnn/blob/main/README_fig.png?raw=true)
 
-Here, we provide a set of codes to build and train a deep neural network (DNN) model to identify individuals in the HCP 1200 dataset using time-varying functional connectivity (tvFC) patterns during a resting state. 
+Here, we provide a set of codes to build and train a weight-sparsity-controlled deep neural network (DNN) model to identify individuals in the HCP 1200 dataset using time-varying functional connectivity (tvFC) patterns during a resting state. 
 
 The codes were implemented in the Python 3.6 environment with the following libraries:
 
