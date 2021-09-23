@@ -1,0 +1,14 @@
+Number of subjects: 10
+Window length (second): 15.0
+Number of samples of each subject per run : 57
+
+Number of units: [62835, 2000, 2000, 10]
+Number of epochs: 200
+Mini-batch size: 20
+Initial learning rate: 0.001
+Begin annealing of learning rate: 100
+Decay rate of learning rate: 0.001
+Minimum learning rate: 0.0
+Max beta: [0.0015, 0.01]
+Learning rate of beta: [0.00015000000000000001, 0.001]
+Optimizer algorithm: Momentum

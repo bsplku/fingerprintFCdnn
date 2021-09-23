@@ -1,0 +1,3 @@
+Training finished! It ran for 273.2 mins 
+
+=> Final validation & test error rate = 0.074 & 0.035
