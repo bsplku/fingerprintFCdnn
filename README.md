@@ -11,7 +11,7 @@ The codes were implemented in the Python 3.6 environment with the following libr
 <br/>
 
 ## main_indiv_identification.ipynb
-The main code is for identifying 10 example subjects using 15 s window tvFC patterns. \
+This main code is for identifying 10 example subjects using 15 s window tvFC patterns. \
 Hidden layers are initialized using a pretrained model to shorten a training time.
 
 ## modules_indiv_identification.py
