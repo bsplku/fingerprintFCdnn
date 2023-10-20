@@ -23,12 +23,17 @@ The subdirectories RS1 (or Day1) and RS2 (or Day2) indicate resting-state fMRI (
 
 ## results_example/
 This directory contains example results. \
-Similarly, the main code will store the corresponding results in an automatically created folder under the './results' directory. 
+Similarly, the main code will store the corresponding results in an automatically created folder under the './results' directory. \
+_* Please note that 'result_weight.mat' was not included here because it was too large to upload to gitHub._
+
+## fpFCs_example/
+This directory contains example fpFCs obtained from the trained model of example results. \
+
 
 <br/><br/>
 
 ### Author
->Juhyeon Lee, ph.D. candidate \
+>Juhyeon Lee, Ph.D. candidate \
 >jh0104lee@gmail.com \
 >[Brain Signal Processing Lab](https://bspl-ku.github.io/) \
 >[Department of Brain and Cognitive Engineering](https://bce.korea.ac.kr), [Korea University](https://www.korea.edu), Seoul, Republic of Korea
