@@ -17,7 +17,7 @@ Hidden layers are initialized using a pretrained model to shorten a training tim
 ## modules_indiv_identification.py
 This module contains the classes/functions used in the main code.
 
-## modules_indiv_identification.py
+## vec2mat.py
 This code is a function to transform 1D vectors of FC (input tvFC or fpFC) to 2D matrices. 
 
 ## data/
