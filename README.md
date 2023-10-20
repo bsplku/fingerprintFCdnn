@@ -28,7 +28,8 @@ Similarly, the main code will store the corresponding results in an automaticall
 <br/><br/>
 
 ### Author
->[Juhyeon Lee](jh0104lee@gmail.com) \
+>Juhyeon Lee \
+>jh0104lee@gmail.com
 >[Brain Signal Processing Lab](https://bspl-ku.github.io/) \
 >[Department of Brain and Cognitive Engineering](https://bce.korea.ac.kr), [Korea University](https://www.korea.edu), Seoul, Republic of Korea
 
