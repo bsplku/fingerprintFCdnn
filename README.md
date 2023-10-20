@@ -22,7 +22,7 @@ This directory includes the input tvFC data. \
 The subdirectories RS1 (or Day1) and RS2 (or Day2) indicate resting-state fMRI (rfMRI) sessions from the first and second visits, respectively. In each visit, two rfMRI runs were acquired with different phase encoding directions, i.e., right-to-left (RL) and left-to-right (LR).
 
 ## results_example/
-This directory contains example results. \
+This directory contains example results of 'main_indiv_identification.ipynb'. \
 Similarly, the main code will store the corresponding results in an automatically created folder under the './results' directory. \
 _* Please note that 'result_weight.mat' was not included here because it was too large to upload to gitHub._
 
