@@ -27,7 +27,7 @@ Similarly, the main code will store the corresponding results in an automaticall
 _* Please note that 'result_weight.mat' was not included here because it was too large to upload to gitHub._
 
 ## fpFCs_example/
-This directory contains example fpFCs obtained from the trained model of example results. \
+This directory contains example fpFCs obtained from the trained model of example results. 
 
 
 <br/><br/>
