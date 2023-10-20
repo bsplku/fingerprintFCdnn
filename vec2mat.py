@@ -10,6 +10,7 @@ import numpy as np
 
 # If the number of ROIs is D, the shape of 2d matrix is (D, D) and the shape of 1d vector is (D*(D-1)/2)
 # vecs: (D*(D-1)/2) or (1, D*(D-1)/2) or (n, D*(D-1)/2)
+# For the ROI label of D=360, please see Glasser MF, Coalson TS, Robinson EC, Hacker CD, Harwell J, Yacoub E, Ugurbil K, Andersson J, Beckmann CF, Jenkinson M, Smith SM, Van Essen DC (2016): A multi-modal parcellation of human cerebral cortex. Nature 536:171–178.
 def vec2mat(vecs, D=360):
     upper_tri_idx = np.triu(np.ones((D,D), dtype=int), k=1)
 
