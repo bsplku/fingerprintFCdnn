@@ -17,6 +17,9 @@ Hidden layers are initialized using a pretrained model to shorten a training tim
 ## modules_indiv_identification.py
 This module contains the classes/functions used in the main code.
 
+## modules_indiv_identification.py
+This code is a function to transform 1D vectors of FC (input tvFC or fpFC) to 2D matrices. 
+
 ## data/
 This directory includes the input tvFC data. \
 The subdirectories RS1 (or Day1) and RS2 (or Day2) indicate resting-state fMRI (rfMRI) sessions from the first and second visits, respectively. In each visit, two rfMRI runs were acquired with different phase encoding directions, i.e., right-to-left (RL) and left-to-right (LR).
@@ -27,8 +30,7 @@ Similarly, the main code will store the corresponding results in an automaticall
 _* Please note that 'result_weight.mat' was not included here because it was too large to upload to gitHub._
 
 ## fpFCs_example/
-This directory contains example fpFCs obtained from the trained model of example results. \
-Additionally, a function to transform 1d vectors of FC to 2d matrices is available. 
+This directory contains example fpFCs obtained from the trained model of example results.
 
 
 <br/><br/>
